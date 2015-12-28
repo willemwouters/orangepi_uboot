@@ -1,0 +1,6 @@
+boot0 file Path=/home/wouters/apps/lichee/tools/pack/out/boot0_sdcard.fex
+script file Path=/home/wouters/apps/lichee/tools/pack/out/sys_config.bin
+
+debug_mode 
+card line num is 8 
+script update boot0 ok
