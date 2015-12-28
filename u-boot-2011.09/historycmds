@@ -1,0 +1,1000 @@
+ 1069  adb kill-server
+ 1070  adb start-server
+ 1071  adb connect 192.168.178.12
+ 1072  sudo minicom -D /dev/ttyUSB0
+ 1073  make
+ 1074  sudo make flash
+ 1075  sudo minicom -D /dev/ttyUSB0
+ 1076  make
+ 1077  sudo make flash
+ 1078  sudo minicom -D /dev/ttyUSB0
+ 1079  make
+ 1080  sudo make flash
+ 1081  adb kill-server
+ 1082  adb start-server
+ 1083  adb connect 192.168.178.12
+ 1084  adb kill-server
+ 1085  adb start-server
+ 1086  adb connect 192.168.178.12
+ 1087  make
+ 1088  sudo make flash
+ 1089  sudo minicom -D /dev/ttyUSB0
+ 1090  adb kill-server
+ 1091  adb start-server
+ 1092  adb connect 192.168.178.12
+ 1093  adb kill-server
+ 1094  adb start-server
+ 1095  adb connect 192.168.178.12
+ 1096  adb kill-server
+ 1097  adb start-server
+ 1098  adb connect 192.168.178.12
+ 1099  adb kill-server
+ 1100  adb start-server
+ 1101  adb connect 192.168.178.12
+ 1102  adb kill-server
+ 1103  adb start-server
+ 1104  adb connect 192.168.178.12
+ 1105  adb kill-server
+ 1106  adb start-server
+ 1107  adb connect 192.168.178.12
+ 1108  dmesg
+ 1109  adb connect 192.168.178.12
+ 1110  dmesg
+ 1111  make
+ 1112  sudo make flash
+ 1113  sudo minicom -D /dev/ttyUSB0
+ 1114  sudo make flash
+ 1115  sudo minicom -D /dev/ttyUSB0
+ 1116  sudo make flash
+ 1117  make
+ 1118  sudo make flash
+ 1119  sudo minicom -D /dev/ttyUSB0
+ 1120  make
+ 1121  sudo make flash
+ 1122  sudo minicom -D /dev/ttyUSB0
+ 1123  make
+ 1124  sudo make flash
+ 1125  sudo minicom -D /dev/ttyUSB0
+ 1126  make
+ 1127  sudo make flash
+ 1128  sudo minicom -D /dev/ttyUSB0
+ 1129  make
+ 1130  sudo make flash
+ 1131  make
+ 1132  sudo make flash
+ 1133  sudo minicom -D /dev/ttyUSB0
+ 1134  make
+ 1135  sudo make flash
+ 1136  sudo minicom -D /dev/ttyUSB0
+ 1137  make
+ 1138  sudo make flash
+ 1139  sudo minicom -D /dev/ttyUSB0
+ 1140  make
+ 1141  sudo make flash
+ 1142  sudo minicom -D /dev/ttyUSB0
+ 1143  make
+ 1144  sudo make flash
+ 1145  make
+ 1146  sudo make flash
+ 1147  make
+ 1148  sudo make flash
+ 1149  sudo minicom -D /dev/ttyUSB0
+ 1150  make
+ 1151  sudo make flash
+ 1152  sudo minicom -D /dev/ttyUSB0
+ 1153  make
+ 1154  sudo make flash
+ 1155  make
+ 1156  sudo make flash
+ 1157  sudo minicom -D /dev/ttyUSB0
+ 1158  make
+ 1159  sudo make flash
+ 1160  make
+ 1161  sudo minicom -D /dev/ttyUSB0
+ 1162  sudo make flash
+ 1163  sudo minicom -D /dev/ttyUSB0
+ 1164  make
+ 1165  sudo make flash
+ 1166  sudo minicom -D /dev/ttyUSB0
+ 1167  make
+ 1168  sudo make flash
+ 1169  sudo minicom -D /dev/ttyUSB0
+ 1170  make
+ 1171  sudo make flash
+ 1172  sudo minicom -D /dev/ttyUSB0
+ 1173  make
+ 1174  sudo make flash
+ 1175  sudo minicom -D /dev/ttyUSB0
+ 1176  cd ..
+ 1177  ls
+ 1178  cp ./template_empty ./i2c_ws2812
+ 1179  cp -r ./template_empty ./i2c_ws2812
+ 1180  cd i2c_ws2812/
+ 1181  make
+ 1182  sudo make flash
+ 1183  sudo make flash\
+ 1184  sudo make flash
+ 1185  sudo minicom -D /dev/ttyUSB0
+ 1186  make
+ 1187  sudo make flash
+ 1188  sudo minicom -D /dev/ttyUSB0
+ 1189  make
+ 1190  sudo make flash
+ 1191  sudo minicom -D /dev/ttyUSB0
+ 1192  make
+ 1193  sudo make flash
+ 1194  sudo minicom -D /dev/ttyUSB0
+ 1195  make
+ 1196  cd ..
+ 1197  cd led_shirt/
+ 1198  make
+ 1199  sudo make flash
+ 1200  sudo minicom -D /dev/ttyUSB0
+ 1201  make
+ 1202  sudo make flash
+ 1203  sudo minicom -D /dev/ttyUSB0
+ 1204  make
+ 1205  sudo make flash
+ 1206  sudo minicom -D /dev/ttyUSB0
+ 1207  sudo make flash
+ 1208  make
+ 1209  sudo make flash
+ 1210  sudo minicom -D /dev/ttyUSB0
+ 1211  make
+ 1212  sudo make flash
+ 1213  sudo minicom -D /dev/ttyUSB0
+ 1214  make
+ 1215  sudo make flash
+ 1216  sudo minicom -D /dev/ttyUSB0
+ 1217  make
+ 1218  sudo make flash
+ 1219  sudo minicom -D /dev/ttyUSB0
+ 1220  make
+ 1221  sudo make flash
+ 1222  sudo minicom -D /dev/ttyUSB0
+ 1223  make
+ 1224  sudo make flash
+ 1225  sudo minicom -D /dev/ttyUSB0
+ 1226  make
+ 1227  sudo make flash
+ 1228  sudo minicom -D /dev/ttyUSB0
+ 1229  make
+ 1230  sudo make flash
+ 1231  sudo minicom -D /dev/ttyUSB0
+ 1232  make
+ 1233  sudo make flash
+ 1234  sudo minicom -D /dev/ttyUSB0
+ 1235  adb tcpip 5050
+ 1236  adb connect 192.168.178.12:5050
+ 1237  pkill android
+ 1238  top
+ 1239  pkill java
+ 1240  cd GIT/willemwouters/ESP8266/projects/apps/led_shirt/
+ 1241  make
+ 1242  sudo make flash
+ 1243  sudo minicom -D /dev/ttyACM0 
+ 1244  sudo minicom -D /dev/ttyUSB0 
+ 1245  make
+ 1246  sudo make flash
+ 1247  sudo minicom -D /dev/ttyUSB0 
+ 1248  make
+ 1249  sudo make flash
+ 1250  sudo minicom -D /dev/ttyUSB0 
+ 1251  make
+ 1252  sudo make flash
+ 1253  sudo minicom -D /dev/ttyUSB0 
+ 1254  make
+ 1255  sudo make flash
+ 1256  sudo minicom -D /dev/ttyUSB0 
+ 1257  make
+ 1258  sudo make flash
+ 1259  make
+ 1260  sudo make flash
+ 1261  sudo minicom -D /dev/ttyUSB0 
+ 1262  make
+ 1263  sudo make flash
+ 1264  sudo minicom -D /dev/ttyUSB0 
+ 1265  make
+ 1266  sudo make flash
+ 1267  sudo minicom -D /dev/ttyUSB0 
+ 1268  make
+ 1269  sudo make flash
+ 1270  sudo minicom -D /dev/ttyUSB0 
+ 1271  make
+ 1272  sudo make flash
+ 1273  sudo minicom -D /dev/ttyUSB0 
+ 1274  make
+ 1275  sudo make flash
+ 1276  sudo minicom -D /dev/ttyUSB0 
+ 1277  make
+ 1278  sudo make flash
+ 1279  sudo minicom -D /dev/ttyUSB0 
+ 1280  make
+ 1281  sudo make flash
+ 1282  make
+ 1283  sudo make flash
+ 1284  sudo minicom -D /dev/ttyUSB0 
+ 1285  make
+ 1286  sudo make flash
+ 1287  sudo minicom -D /dev/ttyUSB0 
+ 1288  make
+ 1289  sudo make flash
+ 1290  sudo minicom -D /dev/ttyUSB0 
+ 1291  make
+ 1292  sudo make flash
+ 1293  sudo minicom -D /dev/ttyUSB0 
+ 1294  make
+ 1295  sudo make flash
+ 1296  sudo minicom -D /dev/ttyUSB0 
+ 1297  make
+ 1298  sudo make flash
+ 1299  sudo minicom -D /dev/ttyUSB0 
+ 1300  make
+ 1301  sudo make flash
+ 1302  sudo minicom -D /dev/ttyUSB0 
+ 1303  make
+ 1304  sudo make flash
+ 1305  sudo minicom -D /dev/ttyUSB0 
+ 1306  make
+ 1307  sudo make flash
+ 1308  sudo minicom -D /dev/ttyUSB0 
+ 1309  make
+ 1310  sudo make flash
+ 1311  sudo minicom -D /dev/ttyUSB0 
+ 1312  make
+ 1313  sudo make flash
+ 1314  make
+ 1315  sudo make flash
+ 1316  sudo minicom -D /dev/ttyUSB0 
+ 1317  make
+ 1318  sudo make flash
+ 1319  make
+ 1320  sudo make flash
+ 1321  sudo minicom -D /dev/ttyUSB0 
+ 1322  make
+ 1323  make clean
+ 1324  make
+ 1325  sudo make flash
+ 1326  make
+ 1327  sudo make flash
+ 1328  adb tcpip 5050
+ 1329  adb connect 192.168.178.12:5050
+ 1330  sudo minicom -D /dev/ttyUSB0 
+ 1331  make
+ 1332  sudo minicom -D /dev/ttyUSB0 
+ 1333  make
+ 1334  sudo make flash
+ 1335  sudo minicom -D /dev/ttyUSB0 
+ 1336  make
+ 1337  sudo make flash
+ 1338  sudo minicom -D /dev/ttyUSB0 
+ 1339  make
+ 1340  sudo make flash
+ 1341  sudo minicom -D /dev/ttyUSB0 
+ 1342  make
+ 1343  sudo make flash
+ 1344  sudo minicom -D /dev/ttyUSB0 
+ 1345  mae
+ 1346  make
+ 1347  sudo make flash
+ 1348  sudo minicom -D /dev/ttyUSB0 
+ 1349  sudo make flash
+ 1350  sudo minicom -D /dev/ttyUSB0 
+ 1351  make
+ 1352  sudo make flash
+ 1353  sudo minicom -D /dev/ttyUSB0 
+ 1354  make
+ 1355  make clean
+ 1356  make
+ 1357  sudo make flash
+ 1358  make
+ 1359  sudo make flash
+ 1360  sudo minicom -D /dev/ttyUSB0 
+ 1361  make
+ 1362  sudo make flash
+ 1363  make
+ 1364  sudo make flash
+ 1365  sudo minicom -D /dev/ttyUSB0 
+ 1366  watch -n1 "sudo ifconfig eth0 down"
+ 1367  cd GIT/willemwouters/ESP8266/projects/apps/led_shirt/
+ 1368  sudo make flash
+ 1369  sudo minicom -D /dev/ttyUSB0 
+ 1370  sudo make flash
+ 1371  sudo minicom -D /dev/ttyUSB0 
+ 1372  sudo make flash
+ 1373  make clean
+ 1374  make small
+ 1375  make clean
+ 1376  make ver
+ 1377  sudo make flash
+ 1378  sudo reboot
+ 1379  dmesg
+ 1380  watch -n1 "sudo ifconfig eth0 down"
+ 1381  cd GITLAB/
+ 1382  ls
+ 1383  git clone https://gitlab.com/willemwouters/LedShirt.git
+ 1384  git clone git@gitlab.com:willemwouters/LedShirt.git
+ 1385  ls
+ 1386  cd LedShirt/
+ 1387  sl
+ 1388  ls
+ 1389  cp -r ../../workspace/ledShirt/ .
+ 1390  ls
+ 1391  cd ledShirt/
+ 1392  ls
+ 1393  cp -r * ../
+ 1394  cd ..
+ 1395  ls
+ 1396  rm -r ledShirt/
+ 1397  ls
+ 1398  git add ./*
+ 1399  git status
+ 1400  git commit -m "initial commit" 
+ 1401  git push origin master
+ 1402  sudo minicom -D /dev/ttyUSB0 
+ 1403  make
+ 1404  cd GIT/willemwouters/ESP8266/projects/apps/led_shirt/
+ 1405  make
+ 1406  sudo make flash
+ 1407  sudo minicom -D /dev/ttyUSB0 
+ 1408  make
+ 1409  sudo make flash
+ 1410  sudo minicom -D /dev/ttyUSB0 
+ 1411  make
+ 1412  sudo make flash
+ 1413  sudo minicom -D /dev/ttyUSB0 
+ 1414  watch -n1 "sudo ifconfig eth0 down"
+ 1415  sudo cp -r ~/Desktop/android-studio-2/* /opt/android-studio-2/
+ 1416  watch -n1 "sudo ifconfig eth0 down"
+ 1417  adb shell
+ 1418  adb reboot
+ 1419  adb root
+ 1420  adb device
+ 1421  adb devices
+ 1422  watch -n1 "adb devices"
+ 1423  adb root
+ 1424  adb shell
+ 1425  watch -n1 "dmesg | tail"
+ 1426  alsamixer
+ 1427  ping google.com
+ 1428  ifconfig
+ 1429  sudo ifconfig
+ 1430  ping google.com
+ 1431  ping 8.8.8.8
+ 1432  ping google.com
+ 1433  sudo apt-get update
+ 1434  sudo ifconfig
+ 1435  sudo ifconfig lo down
+ 1436  sudo mv /etc/X11/xorg.conf.back /etc/X11/xorg.conf
+ 1437  sudo apt-get update
+ 1438  cd /tmp/
+ 1439  ls
+ 1440  dh
+ 1441  fg
+ 1442  df
+ 1443  cd /opt/
+ 1444  rm -rf ./android-studio-2
+ 1445  sudo rm -rf ./android-studio-2/
+ 1446  df
+ 1447  sudo apt-get update
+ 1448  cd /opt/
+ 1449  ls
+ 1450  sudo gparted
+ 1451  ls
+ 1452  sudo mv -r ./eagle-7.* /home/wouters/apps
+ 1453  sudo mv  ./eagle-7.* /home/wouters/apps
+ 1454  mkdir /home/wouters/apps
+ 1455  sudo mv  ./eagle-7.* /home/wouters/apps
+ 1456  df
+ 1457  ls
+ 1458  sudo mv  ./gcc-arm-no
+ 1459  sudo mv  ./android-studio /home/wouters/apps
+ 1460  cd Android/
+ 1461  ls
+ 1462  cd ..
+ 1463  sudo mv  ./Android /home/wouters/apps
+ 1464  fd
+ 1465  df
+ 1466  startx
+ 1467  google-chrome
+ 1468  chromium 
+ 1469  sudo reboot
+ 1470  watch -n1 "sudo ifconfig eth0 down"
+ 1471  adb devices
+ 1472  ls
+ 1473  ~/apps/Android/Sdk/platform-tools/adb  devices
+ 1474  ls
+ 1475  ~/apps/Android/Sdk/platform-tools/adb  install app-release.apk 
+ 1476  sudo apt-get install gimp
+ 1477  sudo apt-get -f install
+ 1478  sudo apt-get install gimp
+ 1479  su -
+ 1480  cd GIT/willemwouters/ESP8266/projects/apps/led_shirt/
+ 1481  cd ~
+ 1482  cd GIT/willemwouters/ESP8266/projects/apps/led_shirt/
+ 1483  sudo make flash
+ 1484  top
+ 1485  cd GIT/willemwouters/ESP8266/projects/apps/led_shirt/
+ 1486  ls
+ 1487  cd firmware/
+ 1488  ls
+ 1489  cd ..
+ 1490  ls
+ 1491  cd ..
+ 1492  ls
+ 1493  cd firmware/
+ 1494  ls
+ 1495  cd ..
+ 1496  ls
+ 1497  cd ..
+ 1498  ls
+ 1499  cd sdk/
+ 1500  ls
+ 1501  cd ..
+ 1502  ls
+ 1503  find . -name "blank.bin"
+ 1504  cd ./sdk/esp_iot_sdk_v1.4.0/
+ 1505  ls
+ 1506  cd bin
+ 1507  ls
+ 1508  cd 
+ 1509  cd GIT/willemwouters/ESP8266/projects/apps/led_shirt/
+ 1510  ls
+ 1511  cat ../../Makefile 
+ 1512  cd ..
+ 1513  ls
+ 1514  cd volttest/
+ 1515  make clean
+ 1516  make
+ 1517  sudo make flash
+ 1518  .//bsp/xtensa-2//bin/xtensa-lx106-elf-objdump ./bsp/esp_1_4_0//bin/esp_init_data_default.bin
+ 1519  .//bsp/xtensa-2//bin/xtensa-lx106-elf-objdump -s ./bsp/esp_1_4_0//bin/esp_init_data_default.bin
+ 1520  bless ./bsp/esp_1_4_0//bin/esp_init_data_default.bin
+ 1521  sudo make flash
+ 1522  sudo minicom -D /dev/ttyUSB0 
+ 1523  bless ./bsp/esp_1_4_0//bin/esp_init_data_default.bin
+ 1524  sudo minicom -D /dev/ttyUSB0 
+ 1525  make clean
+ 1526  make
+ 1527  cat ../../Makefile 
+ 1528  sudo make flash
+ 1529  ls ./bsp/esp_1_4_0//bin/
+ 1530  nautilus ./
+ 1531  ls
+ 1532  ls ./bsp/esp_1_4_0//bin/
+ 1533  sudo make flash
+ 1534  sudo minicom -D /dev/ttyUSB0 
+ 1535  make
+ 1536  sudo make flash
+ 1537  sudo minicom -D /dev/ttyUSB0 
+ 1538  cd ../led_shirt/
+ 1539  make
+ 1540  sudo make flash
+ 1541  sudo minicom -D /dev/ttyUSB0 
+ 1542  make
+ 1543  sudo make flash
+ 1544  sudo minicom -D /dev/ttyUSB0 
+ 1545  make
+ 1546  sudo make flash
+ 1547  make
+ 1548  sudo make flash
+ 1549  cd ../volttest/
+ 1550  make
+ 1551  sudo make flash
+ 1552  sudo minicom -D /dev/ttyUSB0 
+ 1553  make
+ 1554  sudo make flash
+ 1555  sudo minicom -D /dev/ttyUSB0 
+ 1556  sudo make flash
+ 1557  sudo minicom -D /dev/ttyUSB0 
+ 1558  sudo make flash
+ 1559  sudo minicom -D /dev/ttyUSB0 
+ 1560  sudo make flash
+ 1561  sudo minicom -D /dev/ttyUSB0 
+ 1562  sudo make flash
+ 1563  sudo minicom -D /dev/ttyUSB0 
+ 1564  sudo make flash
+ 1565  sudo minicom -D /dev/ttyUSB0 
+ 1566  make
+ 1567  sudo make flash
+ 1568  sudo minicom -D /dev/ttyUSB0 
+ 1569  sudo make flash
+ 1570  sudo minicom -D /dev/ttyUSB0 
+ 1571  sudo make flash
+ 1572  sudo minicom -D /dev/ttyUSB0 
+ 1573  sudo make flash
+ 1574  sudo minicom -D /dev/ttyUSB0 
+ 1575  sudo make flash
+ 1576  sudo minicom -D /dev/ttyUSB0 
+ 1577  make
+ 1578  sudo make flash
+ 1579  ps
+ 1580  top
+ 1581  kill 20173
+ 1582  su -l
+ 1583  cd GIT/willemwouters/ESP8266/projects/apps/led_shirt/
+ 1584  sudo make flash
+ 1585  make
+ 1586  sudo make flash
+ 1587  filezilla 
+ 1588  google-chrome
+ 1589  top
+ 1590  kill 21029
+ 1591  gimp
+ 1592  google-chrome
+ 1593  sudo minicom -D /dev/ttyUSB0 
+ 1594  sudo minicom -D /dev/ttyACM3 
+ 1595  cd GIT/willemwouters/ESP8266/projects/apps/led_shirt/
+ 1596  gedit ../../settings.mk 
+ 1597  sudo make flash
+ 1598  gedit ../../settings.mk 
+ 1599  sudo make flash
+ 1600  sudo minicom -D /dev/ttyACM3 
+ 1601  dmesg
+ 1602  sudo minicom -D /dev/ttyACM4
+ 1603  make clean
+ 1604  make vertical
+ 1605  cat ./Makefile 
+ 1606  make ver
+ 1607  sudo make flash
+ 1608  gedit ../../settings.mk 
+ 1609  sudo make flash
+ 1610  gnome-do
+ 1611  sudo apt-get install gnome-do
+ 1612  gnome-do
+ 1613  gnome-do &
+ 1614  gnome-do --help
+ 1615  make clean
+ 1616  make small
+ 1617  sudo make flash
+ 1618  gedit ../../settings.mk 
+ 1619  make
+ 1620  sudo make flash
+ 1621  make clean
+ 1622  make small
+ 1623  sudo make flash
+ 1624  sudo apt-get install kicad
+ 1625  sudo apt-get update
+ 1626  sudo apt-get install kicad
+ 1627  kicad 
+ 1628  cd GITLAB/LedShirt/
+ 1629  svn stat
+ 1630  cd ..
+ 1631  ls
+ 1632  cd LedShirt/
+ 1633  ls
+ 1634  git stat
+ 1635  git status
+ 1636  ls
+ 1637  cd app/src/main/java/com/w2/ledshirt/threads/
+ 1638  ls
+ 1639  cd -
+ 1640  git rm -rf ./*
+ 1641  ls
+ 1642  git rm -rf ./
+ 1643  git status
+ 1644  ls
+ 1645  rm ./*
+ 1646  rm -rf ./*
+ 1647  ls
+ 1648  git status
+ 1649  cp -r ~/workspace/ledShirt/* .
+ 1650  ls
+ 1651  git status
+ 1652  git add ./*
+ 1653  git commit -m "new update"
+ 1654  git push origin master
+ 1655  sudo apt-get install bless
+ 1656  adb devices
+ 1657  cd ~/apps/android-studio/bin/
+ 1658  ls
+ 1659  cd ..
+ 1660  ls
+ 1661  cd ..
+ 1662  ls
+ 1663  cd Android/
+ 1664  ls
+ 1665  cd Sdk/
+ 1666  ls
+ 1667  cd platform-tools/
+ 1668  ls
+ 1669  pwd
+ 1670  export PATH=$PATH:`pwd`
+ 1671  adb devices
+ 1672  adb reboot bootloader
+ 1673  fastboot devices
+ 1674  fastboot oem unlock
+ 1675  adb devices
+ 1676  fastboot oem unlock
+ 1677  adb devices
+ 1678  adb push ~/Downloads/twrp-2.8.7.0-mako.img  /sdcard
+ 1679  adb push ~/Downloads/twrp-2.8.7.0-mako.img  /sdcard/
+ 1680  adb push ~/Downloads/cm-12.1-2015100  /sdcard/
+ 1681  adb reboot bootloader
+ 1682  fastboot devices
+ 1683  fastboot flash recovery ~/Downloads/twrp-2.8.7.0-mako.img 
+ 1684  adb devices
+ 1685  adb push ~/Downloads/twrp-2.8.7.0-mako.img  /sdcard/
+ 1686  adb push ~/Downloads/open_gapps-arm-5.1-nano-20151127.zip  /sdcard/
+ 1687  cd ~/Downloads/
+ 1688  ls
+ 1689  dpkg -i ./prey_1.4.2_i386.deb 
+ 1690  sudo dpkg -i ./prey_1.4.2_i386.deb 
+ 1691  sudo apt-get install prey
+ 1692  sudo apt-get -f install
+ 1693   apt-get install prey
+ 1694  sudo apt-get -f install
+ 1695  prey
+ 1696  sudo prey
+ 1697  sudo dpkg -i ./prey_1.4.2_i386.deb 
+ 1698  sudo apt-get -f install
+ 1699  prey
+ 1700  sudo apt-get install prey
+ 1701  cd ~/apps/
+ 1702  ls
+ 1703  cd prey-1.4.2/
+ 1704  ls
+ 1705  ./bin/prey 
+ 1706  sudo ./bin/prey config hooks post_install
+ 1707  ./bin/prey 
+ 1708  prey config account setup
+ 1709  ./bin/prey config account setup
+ 1710  sudo ./bin/prey config account setup
+ 1711  wmname LG3D
+ 1712  watch -n1 "sudo ifconfig eth0 down"
+ 1713  pkill kicad
+ 1714  ps
+ 1715  top
+ 1716  ps -A
+ 1717  ps -A | grep ki
+ 1718  ps -A | grep cad
+ 1719  bg
+ 1720  watch -n1 "sudo ifconfig eth0 down"
+ 1721  ls
+ 1722  cd bsp/
+ 1723  ls
+ 1724  ls -ls
+ 1725  ln -s ../../../../sdk/esp_iot_sdk_v1.5.0 esp_1_5_0
+ 1726  ls
+ 1727  cd ..
+ 1728  make
+ 1729  make clean
+ 1730  make
+ 1731  make clean
+ 1732  make
+ 1733  sudo make flash
+ 1734  ls ./bsp/esp_1_5_0//bin/
+ 1735  sudo make flash
+ 1736  make clean_modules 
+ 1737  make modules
+ 1738  make
+ 1739  sudo make flash
+ 1740  sudo minicom -D /dev/ttyACM4
+ 1741  sudo minicom -D /dev/ttyUSB0 dfl 
+ 1742  make clean_modules 
+ 1743  make
+ 1744  make clean
+ 1745  make
+ 1746  cd ../../modules/modules_1_5_0/
+ 1747  make
+ 1748  make clean
+ 1749  make
+ 1750  cd -
+ 1751  make
+ 1752  make clean_modules 
+ 1753  make
+ 1754  make clean_modules 
+ 1755  make
+ 1756  sudo make flash
+ 1757  sudo minicom -D /dev/ttyUSB0 dfl 
+ 1758  feh
+ 1759  git status
+ 1760  git add ./*
+ 1761  git status
+ 1762  git add src/*
+ 1763  git status
+ 1764  git add ./Makefile 
+ 1765  git add bsp/esp_1_5_0
+ 1766  git add ../../modules/modules_1_5_0/
+ 1767  git add ../../../sdk/esp_iot_sdk_v1.5.0/
+ 1768  git status
+ 1769  git commit -m "added sdk1.5"
+ 1770  git push origin master
+ 1771  git status
+ 1772  git add ./src/*
+ 1773  git commit -m "added sdk1.5"
+ 1774  git push origin master
+ 1775  ls
+ 1776  cd ..
+ 1777  cp -r ./led_shirt ./led_shirt_ori
+ 1778  ls
+ 1779  git status
+ 1780  feh
+ 1781  gifview
+ 1782  sudo apt-get install gifview
+ 1783  sudo apt-get install xnview
+ 1784  gifview
+ 1785  sudo apt-get install gifsicle
+ 1786  gifview 
+ 1787  gifview ./gif_test.gif 
+ 1788  gifview ./gif_fireworks.gif 
+ 1789  cd ..
+ 1790  dmesg
+ 1791  nc --help
+ 1792  nc -h
+ 1793  nc -lb 255.255.255.255
+ 1794  nc -lb 255.255.255.255 8080
+ 1795  nc -lb 224.0.0.1 8080
+ 1796  cd GIT/willemwouters/ESP8266/projects/apps/led_shirt/
+ 1797  ls
+ 1798  cat ./send.sh 
+ 1799  gedit ./send.sh 
+ 1800  ./send.sh 
+ 1801  sudo ifconfig
+ 1802  ./send.sh 
+ 1803  cat./send.sh 
+ 1804  cat ./send.sh 
+ 1805  nc -u -q1 224.0.0.1 8080
+ 1806  nc -bu -q1 224.0.0.1 8080
+ 1807  nc -lb 224.0.0.1 8080
+ 1808  nc -b -q1 224.0.0.1 8080
+ 1809  sudo hostapd stop
+ 1810  make
+ 1811  iw list
+ 1812  sudo apt-get install iw
+ 1813  sudo iw list
+ 1814  gedit ./hostapd.conf
+ 1815  bg
+ 1816  sudo apt-get install hostapd
+ 1817  sudo hostapd ./hostapd.conf 
+ 1818  iw list
+ 1819  sudo iw list
+ 1820  ifconfig
+ 1821  sudo ifconfig
+ 1822  sudo hostapd ./hostapd.conf 
+ 1823  lspci -k | grep -A 3 -i "network"
+ 1824  modinfo b43-pci-bridge | grep 'depend'
+ 1825  sudo modinfo b43-pci-bridge | grep 'depend'
+ 1826  sudo modlist
+ 1827  sudo modinfo
+ 1828  sudo modinfo b43
+ 1829  sudo modinfo b43-pci-bridge | grep 'depend'
+ 1830  lspci -k | grep -A 3 -i "network"
+ 1831  sudo hostapd ./hostapd.conf 
+ 1832  sudo rfkill unblock wlan
+ 1833  sudo hostapd ./hostapd.conf 
+ 1834  sudo rfkill unblock wlan
+ 1835  sudo hostapd ./hostapd.conf 
+ 1836  sudo apt-get install isc-dhcp-server
+ 1837  gedit /etc/dhcp/dhcpd.conf 
+ 1838  sudo gedit /etc/dhcp/dhcpd.conf 
+ 1839  sudo gedit /etc/default/isc-dhcp-server
+ 1840  sudo service isc-dhcp-server start
+ 1841  dmesg
+ 1842  sudo service isc-dhcp-server start
+ 1843  sudo hostapd ./hostapd.conf  &
+ 1844  sudo rfkill unblock wlan
+ 1845  sudo hostapd ./hostapd.conf  &
+ 1846  sudo service isc-dhcp-server start
+ 1847  journalctl -xn
+ 1848  systemctl status isc-dhcp-server.service
+ 1849  /etc/init.d/isc-dhcp-server
+ 1850  sudo /etc/init.d/isc-dhcp-server start
+ 1851  sudo /etc/init.d/isc-dhcp-server sto
+ 1852  sudo /etc/init.d/isc-dhcp-server start
+ 1853  journalctl -xn
+ 1854  systemctl status isc-dhcp-server.service
+ 1855  cat /etc/init.d/isc-dhcp-server
+ 1856  sudo dhcpd
+ 1857  sudo dhcpd start
+ 1858  sudo dhcpd wlan0
+ 1859  sudo dhcpd --help
+ 1860  sudo dhcpd -c /etc/dhcp/dhcpd.conf 
+ 1861  sudo dhcpd -cf /etc/dhcp/dhcpd.conf 
+ 1862  sudo gedit /etc/dhcp/dhcpd.conf 
+ 1863  bg
+ 1864  sudo gedit /etc/network/interfaces
+ 1865  sudo ifconfig wlan0 192.168.42.1
+ 1866  sudo dhcpd -cf /etc/dhcp/dhcpd.conf 
+ 1867  sudo  /etc/init.d/isc-dhcp-server stop
+ 1868  sudo  /etc/init.d/isc-dhcp-server start
+ 1869  fg
+ 1870  watch -n1 "sudo ifconfig eth0 down"
+ 1871  sudo apt-get remove hostapd 
+ 1872  sudo wicd
+ 1873  sudo iwconfig
+ 1874  sudo iwconfig wlan0 up
+ 1875  sudo reboot
+ 1876  watch -n1 "sudo ifconfig eth0 down"
+ 1877  sudo ifconfig wlan0 up
+ 1878  sudo iwconfig wlan0 up
+ 1879  sudo iwconfig wlan0
+ 1880  ls
+ 1881  sudo reboot
+ 1882  sudo gedit /etc/network/interfaces
+ 1883  sudo gedit /etc/NetworkManager/NetworkManager.conf 
+ 1884  sudo service network-manager restart
+ 1885  watch -n1 "sudo ifconfig eth0 down"
+ 1886  dmesg
+ 1887  sudo dosfsck -w -r -l -a -v -t /dev/sdb1
+ 1888  dmesg
+ 1889  sudo dosfsck -w -a -t /dev/sdb1
+ 1890  sudo fsck.vfat -r /dev/sdb1 
+ 1891  sudo apt-get install testdisk
+ 1892  sudo testdisk 
+ 1893  dmesg
+ 1894  sudo testdisk 
+ 1895  dmesg
+ 1896  sudo testdisk 
+ 1897  dmesg
+ 1898  sudo mount
+ 1899  sudo umount /media/usb0 
+ 1900  dmesg
+ 1901  sudo mount /dev/sdb1 /media/usb0
+ 1902  sudo mount /dev/sdb1 /media/usb1
+ 1903  sudo umount /media/usb1 
+ 1904  sync
+ 1905  dmesg
+ 1906  mount
+ 1907  cd /media/usb1/
+ 1908  ls
+ 1909  sudo mkdir backup_sd
+ 1910  ls
+ 1911  sync
+ 1912  cd bckup/
+ 1913  ls
+ 1914  find . -name "*.jpg"
+ 1915  ls
+ 1916  cd �AMERA/
+ 1917  ls
+ 1918  cd c
+ 1919  ls
+ 1920  ls -al
+ 1921  feh _0y5C6~1.JPG
+ 1922  feh u09?D5~1.JPG
+ 1923  cd ..
+ 1924  ls
+ 1925  rm -rf ./bckup
+ 1926  sudo rm -rf ./bckup
+ 1927  ls
+ 1928  ls
+ 1929  sudo apt-get install vlc
+ 1930  ls
+ 1931  vlc ./Video067.mp4 
+ 1932  vlc ./Video068.mp4 
+ 1933  vlc ./Video069.mp4 
+ 1934  vlc ./Video070.mp4 Video0
+ 1935  vlc ./Video071
+ 1936  vlc ./Video071.mp4 
+ 1937  vlc ./Video072.mp4 
+ 1938  vlc ./Video074.mp4 
+ 1939  vlc ./Video076.mp4 
+ 1940  vlc ./Video078.mp4 
+ 1941  vlc ./Video080.mp4 
+ 1942  vlc ./Video081.mp4 
+ 1943  vlc ./Video082.mp4.mp4 
+ 1944  vlc ./Video082.mp4
+ 1945  vlc ./Video083.mp4 
+ 1946  vlc ./Video084.mp4 
+ 1947  watch -n1 "sudo ifconfig eth0 down"
+ 1948  df
+ 1949  cd ..
+ 1950  sudo umount ./usb1
+ 1951  cd ..
+ 1952  nautilus 
+ 1953  sudo nautilus ./
+ 1954  watch -n1 "sudo ifconfig eth0 down"
+ 1955  sudo nvidia-settings 
+ 1956  cd Downloads/
+ 1957  ls
+ 1958  cd ../apps/popcorn/
+ 1959  ls
+ 1960  ./Popcorn-Time 
+ 1961  wmname LG3D
+ 1962  ./Popcorn-Time 
+ 1963  sudo apt-get install libudev0
+ 1964  sudo apt-get update
+ 1965  sudo apt-get install libudev0
+ 1966  sudo apt-get install libudev
+ 1967  wget https://launchpad.net/ubuntu/+source/udev/175-0ubuntu19/+build/4325788/+files/libudev0_175-0ubuntu19_amd64.deb
+ 1968  sudo dpkg -i ./libudev0_175-0ubuntu19_amd64.deb 
+ 1969  ./Popcorn-Time 
+ 1970  sudo apt-get install ghex
+ 1971  ghex ./Popcorn-Time 
+ 1972  ./Popcorn-Time 
+ 1973  cd GIT/willemwouters/ESP8266/projects/apps/led_shirt/
+ 1974  make clean
+ 1975  make
+ 1976  sudo make flash
+ 1977  sudo minicom -D /dev/ttyUSB0 dfl 
+ 1978  sudo make flash
+ 1979  sudo minicom -D /dev/ttyUSB0 dfl 
+ 1980  sudo make flash
+ 1981  sudo minicom -D /dev/ttyUSB0 dfl 
+ 1982  sudo make flash
+ 1983  sudo nvidia-settings 
+ 1984  BADAAAAABBBDDDCCBBBBBADCDDBDADDBDADBDDD~~))))(*&^BAD
+ 1985  [s
+ 1986  ps
+ 1987  top
+ 1988  sudo apt-get install lib32
+ 1989  sudo apt-get install apt-get install g++-arm-linux-gnueabihf
+ 1990  sudo apt-get install g++-arm-linux-gnueabihf
+ 1991  dpkg --add-architecture armhf
+ 1992  sudo dpkg --add-architecture armhf
+ 1993  sudo apt-get update
+ 1994  sudo apt-get install g++-arm-linux-gnueabihf build-essential git debootstrap u-boot-tools device-tree-compiler
+ 1995  sudo dpkg --add-architecture armhf
+ 1996  sudo apt-get update
+ 1997  sudo vi /etc/apt/sources.list
+ 1998  sudo apt-get update
+ 1999  sudo apt-get install 
+ 2000  bg
+ 2001  cp -fv chips/sun8iw7p1/configs/dolphin-p1/sys_config.fex out/sys_config.fex
+ 2002  mkdir out
+ 2003  cp -fv chips/sun8iw7p1/configs/dolphin-p1/sys_config.fex out/sys_config.fex
+ 2004  cp -fv chips/sun8iw7p1/bin/boot0_sdcard_sun8iw7p1.bin out/boot0_sdcard.fex
+ 2005  sudo apt-get install unix2dos
+ 2006  sudo gedit /etc/apt/sources.list
+ 2007  sudo apt-get update
+ 2008  sudo apt-get install unix2dos
+ 2009  sudo dpkg --remove-architecture armhf
+ 2010  sudo apt-get update
+ 2011  sudo apt-get install unix2dos
+ 2012  sudo aptitude install unix2dow
+ 2013  sudo aptitude install unix2dos
+ 2014  sudo aptitude install dos2unix 
+ 2015  unix2dos out/sys_config.fex 
+ 2016  pctools/linux/mod_update/script out/sys_config.fex 
+ 2017  fex2bin
+ 2018  sudo apt-get install fex2bin
+ 2019  ls
+ 2020  cd ..
+ 2021  ls
+ 2022  cd -
+ 2023  find . -name "fex2bin"
+ 2024  find -r . -name "fex2bin"
+ 2025  find  . -name "fex2bin"
+ 2026  cd ../../..
+ 2027  git clone git clone https://github.com/linux-sunxi/sunxi-tools
+ 2028  git clone https://github.com/linux-sunxi/sunxi-tools
+ 2029  cd sunxi-tools/
+ 2030  make
+ 2031  ls
+ 2032  cd ..
+ 2033  ls
+ 2034  cd lichee/tools/pack/
+ 2035  ls
+ 2036  cd -
+ 2037  cd sunxi-tools/
+ 2038  export PATH=$PATH:`pwd`
+ 2039  ls
+ 2040  cd -
+ 2041  cd lichee/tools/pack/
+ 2042  fex2bin out/sys_config.fex out/sys_config.bin 
+ 2043  pctools/linux/mod_update/script out/sys_config.fex 
+ 2044  fex2bin out/sys_config.fex out/sys_config.bin 
+ 2045  gedit out/sys_config.fex 
+ 2046  fex2bin out/sys_config.fex out/sys_config.bin 
+ 2047  pctools/linux/mod_update/update_boot0 out/boot0_sdcard.fex out/sys_config.bin SDMMC_CARD
+ 2048  history
+ 2049  history > historycmds
+ 2050  gedit historyoutput
+ 2051  cd ../../brandy/u-boot-2011.09/
+ 2052  ls
+ 2053  make sun8iw7p1_config
+ 2054  make menuconfig
+ 2055  make
+ 2056  arm-linux-gnueabi-objcopy --gap-fill=0xff -O binary u-boot u-boot.bin
+ 2057  locate arm-linux-gnueabi
+ 2058  locate arm-linux-gnueabi-objdump
+ 2059  cd /home/wouters/GITLAB/lichee/brandy/gcc-linaro/bin/
+ 2060  ls
+ 2061  export PATH=$PATH:`pwd`
+ 2062  cd -
+ 2063  arm-linux-gnueabi-objcopy --gap-fill=0xff -O binary u-boot u-boot.bin
+ 2064  ls
+ 2065  arm-linux-gnueabi-objcopy --gap-fill=0xff -O binary u-boot u-boot.bin
+ 2066  'u-boot-sun8iw7p1.bin' -> '../../tools/pack/chips/sun8iw7p1/bin/u-boot-sun8iw7p1.bin'
+ 2067  cp ./u-boot-sun8iw7p1.bin ../../tools/pack/chips/sun8iw7p1/bin/u-boot-sun8iw7p1.bin 
+ 2068  history > historycmds
